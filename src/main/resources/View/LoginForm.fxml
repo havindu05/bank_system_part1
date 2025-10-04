@@ -51,7 +51,7 @@
       <Text layoutX="25.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
       <TextField fx:id="txtName" layoutX="25.0" layoutY="148.0" prefHeight="26.0" prefWidth="282.0" />
       <TextField fx:id="txtPassword" layoutX="25.0" layoutY="212.0" prefHeight="26.0" prefWidth="282.0" />
-      <Text layoutX="28.0" layoutY="267.0" onDragDetected="#btnForgotPassword" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-opacity: 60%;" text="Forgot Password" underline="true">
+      <Text fx:id="btnForgotPassword" layoutX="28.0" layoutY="267.0" onDragDetected="#btnForgotPassword" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-opacity: 60%;" text="Forgot Password" underline="true">
          <font>
             <Font size="10.0" />
          </font>

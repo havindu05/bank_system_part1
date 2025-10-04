@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #FAFAD2;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.WelcomePageController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="211.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/Unknown-32.jpg" />
+         </image>
+      </ImageView>
+      <Polygon fill="#0a0a0a" layoutX="350.0" layoutY="126.0" points="-147.4683837890625, 274.0, -27.5, 63.5, -147.4683837890625, -126.0" stroke="BLACK" strokeType="INSIDE" />
+      <Text fill="#0d0d0d" layoutX="252.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome" wrappingWidth="140.5927734375">
+         <font>
+            <Font name="Charter Bold" size="33.0" />
+         </font>
+      </Text>
+      <Text fill="#94840c" layoutX="402.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SheyBank" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Hebrew" size="30.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="132.0" fitWidth="169.0" layoutX="168.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/Unknown-31-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Text fill="#030303" layoutX="325.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="®Our Vission" wrappingWidth="84.21630859375">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#a15353" layoutX="325.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="“To be the most trusted and innovative financial partner, empowering individuals and businesses to achieve lasting prosperity.”" wrappingWidth="245.21630859375">
+         <font>
+            <Font name="Arial Bold" size="11.0" />
+         </font>
+      </Text>
+      <Text layoutX="325.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="®Our Mission" wrappingWidth="91.171875">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#a15353" layoutX="331.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="“To deliver secure, convenient, and customer-focused banking solutions through technology, integrity, and excellence in service.”" wrappingWidth="245.21630859375">
+         <font>
+            <Font name="Arial Bold" size="11.0" />
+         </font>
+      </Text>
+      <Text layoutX="331.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="®About Us" wrappingWidth="91.171875">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#a15353" layoutX="331.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SheyBank is a trusted financial institution offering secure and innovative banking solutions.We provide savings, loans, and digital banking services designed to make finance simple, safe, and accessible for everyone." wrappingWidth="245.21630859375">
+         <font>
+            <Font name="Arial Bold" size="11.0" />
+         </font>
+      </Text>
+      <Button layoutX="516.0" layoutY="366.0" mnemonicParsing="false" onAction="#btnNext" prefHeight="11.0" prefWidth="60.0" style="-fx-background-color: #d3bf23;" text="Next" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
