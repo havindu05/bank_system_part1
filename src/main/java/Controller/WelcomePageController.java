@@ -17,7 +17,7 @@ public class WelcomePageController {
 
             Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
             stage.setScene(new Scene(root));
-            stage.setTitle("Home Page");
+            stage.setTitle("PinNumber");
             stage.show();
 
         } catch (IOException e) {
