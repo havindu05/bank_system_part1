@@ -75,7 +75,7 @@
             <Font name="Arial Bold Italic" size="14.0" />
          </font>
       </Button>
-      <TextField fx:id="txtMoneyShow" alignment="CENTER_RIGHT" layoutX="155.0" layoutY="62.0" prefHeight="48.0" prefWidth="353.0" promptText="wdwdw" style="-fx-opacity: 60%;">
+      <TextField fx:id="txtMoneyShow" alignment="CENTER" layoutX="155.0" layoutY="62.0" prefHeight="48.0" prefWidth="353.0" style="-fx-opacity: 60%;">
          <font>
             <Font name="Copperplate Bold" size="18.0" />
          </font>
